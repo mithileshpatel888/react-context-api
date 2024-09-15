@@ -24,7 +24,7 @@ const handleSubmit = (e) =>{
         value={password}
         onChange={(e)=>setpassword(e.target.value)}  
         placeholder='password' />
-        <button className='p-4 bg-green-600 rounded-xl ml-2' onClick={handleSubmit}>Submit</button>
+        <button className='p-4 bg-orange-600 rounded-xl ml-2' onClick={handleSubmit}>Submit</button>
     </div>
     </>
   )
